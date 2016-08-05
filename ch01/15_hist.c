@@ -9,7 +9,7 @@ int main() {
 
   int charcount, offset, c;
   int buffer[BUFFERSIZE];
-  for (int i = 0; i < BUFFERSIZE; i++) {
+  for (int i = 0; i < BUFFERSIZE; ++i) {
     buffer[i] = -1;
   }
   charcount = offset = 0;
@@ -25,9 +25,9 @@ int main() {
     }
   }
 
-  for (int i = 0; i < BUFFERSIZE; i++) {
+  for (int i = 0; i < BUFFERSIZE; ++i) {
     if (buffer[i] != -1) {
-      for (int j = 0; j < buffer[i]; j++) {
+      for (int j = 0; j < buffer[i]; ++j) {
         printf("|");
       }
       printf("\n");

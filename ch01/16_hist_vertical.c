@@ -10,7 +10,7 @@ int main() {
   // Initialize variables
   int charcount, offset, c;
   int buffer[BUFFERSIZE];
-  for (int i = 0; i < BUFFERSIZE; i++) {
+  for (int i = 0; i < BUFFERSIZE; ++i) {
     buffer[i] = -1;
   }
   charcount = offset = 0;
@@ -30,10 +30,10 @@ int main() {
   // Get the width (cols) and height (rows) of the "bar chart"
   int width, height;
   width = height = 0;
-  for (int i = 0; i < BUFFERSIZE; i++) {
+  for (int i = 0; i < BUFFERSIZE; ++i) {
     if (buffer[i] != -1) {
       ++width;
-      for (int j = 0; j < buffer[i]; j++) {
+      for (int j = 0; j < buffer[i]; ++j) {
         if (buffer[i] > height) {
           height = buffer[i];
         }
@@ -42,8 +42,8 @@ int main() {
   }
 
   // Print the "upside down bar chart"
-  for (int k = 0; k < height; k++) {
-    for (int i = 0; i < width; i++) {
+  for (int k = 0; k < height; ++k) {
+    for (int i = 0; i < width; ++i) {
       if (buffer[i] > 0) {
         printf("* ");
         --buffer[i];
