@@ -19,6 +19,8 @@ int main() {
 
   for (int i = 0; i < CHARSETIZE; i++) {
     if (chars[i] != 0) {
+
+      // Make some common invisible characters visible
       if (i == 9) {
         printf(" \\t: ", i);
       } else if (i == 10) {

@@ -21,7 +21,7 @@ int main() {
 
   while ((c = getchar()) != EOF) {
     if (c >= '0' && c <= '9') {
-      ++ndigit[c - '0'];
+      ++ndigit[c - '0']; // e.g. '5' - '0' == 53 - 48 == 5
     } else if (c == ' ' || c == '\n' || c == '\t') {
       ++nwhite;
     } else {

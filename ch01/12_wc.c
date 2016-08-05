@@ -17,6 +17,7 @@ int main() {
   while ((c = getchar()) != EOF) {
     ++nc;
 
+    // Count first line even if it has no newline character at the end
     if (counted_first_line == 0) {
       counted_first_line = 1;
       ++nl;

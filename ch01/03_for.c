@@ -1,5 +1,7 @@
 /*
  * Converts Fahrenheit to Celsius
+ *
+ * Tc = 5/9 * (Tf - 32)
  */
 #include <stdio.h>
 
