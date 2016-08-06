@@ -1,3 +1,6 @@
+/*
+ * Shows the pass by reference behaviour for arrays
+ */
 #include <stdio.h>
 
 void b(char s[]) {
