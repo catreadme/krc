@@ -1,3 +1,6 @@
+/*
+ * Prints useful information for commonly used types
+ */
 #include <limits.h>
 #include <stdio.h>
 #include <float.h>
