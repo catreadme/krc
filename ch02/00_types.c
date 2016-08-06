@@ -29,7 +29,7 @@ int main() {
   printf("\tint min: %d\n", INT_MIN);
   printf("\tint max: %d\n", INT_MAX);
   printf("\tunsigned int min: 0\n");
-  printf("\tunsigned int max: %d\n", UINT_MAX);
+  printf("\tunsigned int max: %u\n", UINT_MAX);
 
   // long
   printf("long\n");
