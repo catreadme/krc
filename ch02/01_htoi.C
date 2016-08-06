@@ -2,7 +2,7 @@
  * Provides htoi() which takes a hexadecimal string as input (with optional
  * leading 0x or 0X) and returns it's decimal value
  *
- * Compiled with: gcc -Wall -g -o bin/01_htoi 01_htoi.c -lm
+ * Compiled with: gcc -Wall -g -o bin/01_htoi 01_htoi.C -lm
  */
 
 #include <stdio.h>
