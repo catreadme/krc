@@ -4,6 +4,13 @@
  * 2^16 = 65536
  * signed short = -32768
  *                 32767
+ *
+ * &   and
+ * |   or
+ * ^   xor
+ * ~   not
+ * <<  shift left
+ * >>  shift right
  */
 
 /*
