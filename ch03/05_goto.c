@@ -5,7 +5,7 @@
 
 int main() {
     unsigned long long n, i;
-    n = 18446744073709551615;
+    n = 61264;
     i = 0;
     printf("%llu\n", n);
 
