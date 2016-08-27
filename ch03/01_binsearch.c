@@ -1,4 +1,3 @@
-
 /*
  * Provides binsearch() which returns the position of a number in an array
  * of numbers or -1.
