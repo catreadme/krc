@@ -1,3 +1,6 @@
+/*
+ * Shows how to handle variable length arguments.
+ */
 #include <stdio.h>
 #include <stdarg.h>
 
